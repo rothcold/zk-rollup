@@ -1,0 +1,29 @@
+{
+  "default": true,
+  "MD013": false,
+  "MD024": {
+    "allow_different_nesting": true
+  },
+  "MD025": false,
+  "MD033": {
+    "allowed_elements": [
+      "br",
+      "p",
+      "img",
+      "h1",
+      "a",
+      "div",
+      "span",
+      "picture",
+      "source",
+      "sub",
+      "h2"
+    ]
+  },
+  "MD041": false,
+  "MD051": false,
+  "ignores": [
+    ".genreleases/",
+    "**/node_modules/**"
+  ]
+}
